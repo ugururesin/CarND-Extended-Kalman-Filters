@@ -41,7 +41,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 ## Results
 In two different simulated runs, my Extended Kalman Filter produces the below results. The x-position is shown as 'px', y-position as 'py', velocity in the x-direction is 'vx', while velocity in the y-direction is 'vy'. Residual error is calculated by mean squared error (MSE).
 
-**Simulation for Dataset-1**  
+**Simulation for the Dataset-1**  
 ![](img/simulation-data1.gif)
 
 | Input |   MSE   |
@@ -52,7 +52,7 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 |  vy   | 0.1867 |
 
 
-**Simulation for Dataset-2**  
+**Simulation for the Dataset-2**  
 ![](img/simulation-data2.gif)
 
 | Input |   MSE   |
