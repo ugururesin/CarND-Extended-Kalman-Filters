@@ -3,7 +3,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 In this project a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements is utilized.
 
-![](img/heading.png)
+![](img/headings.png)
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
 
@@ -45,21 +45,21 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
   
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.0093 |
-|  py   | 0.0073 |
-|  vx   | 0.1729 |
-|  vy   | 0.1867 |
+|  px   | 0.0964 |
+|  py   | 0.0853 |
+|  vx   | 0.4154 |
+|  vy   | 0.4316 |
 
-![](img/simulation-data1.gif)  
+![](img/sim-data1.gif)  
   
 
 **The Dataset-2**  
   
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.0061 |
-|  py   | 0.0094 |
-|  vx   | 0.2762 |
-|  vy   | 0.2308 |
+|  px   | 0.0780 |
+|  py   | 0.0971 |
+|  vx   | 0.5259 |
+|  vy   | 0.4809 |
   
-![](img/simulation-data2.gif)
+![](img/sim-data2.gif)
