@@ -69,6 +69,8 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 ## Results
 In two different simulated runs, my Extended Kalman Filter produces the below results. The x-position is shown as 'px', y-position as 'py', velocity in the x-direction is 'vx', while velocity in the y-direction is 'vy'. Residual error is calculated by mean squared error (MSE).
 
+![](img/simulation-data1.gif) ![](img/simulation-data2.gif)
+
 *Test One*
 
 | Input |   MSE   |
@@ -77,8 +79,6 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 |  py   | 0.0855 |
 |  vx   | 0.4517 |
 |  vy   | 0.4404 |
-
-
 
 *Test Two*
 
